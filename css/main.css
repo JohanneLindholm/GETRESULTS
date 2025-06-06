@@ -164,37 +164,6 @@
   !*** css ../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*****************************************************************************************************************/
 
-/* ===== FULL-CENTER EVERYTHING ON SCREEN ===== */
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-}
-
-body.jspsych-display-element {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-.jspsych-content-wrapper {
-  width: 100%;
-  max-width: 800px;
-  background-color: white;
-  padding: 40px;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: -150px; 
-  font-size: 16px;
-  font-family: "Open Sans", Arial, sans-serif;
-  padding: 24px 32px;
-}
 
 
 /* ===== NEXT BUTTON ===== */
