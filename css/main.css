@@ -164,6 +164,10 @@
   !*** css ../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*****************************************************************************************************************/
 
+.jspsych-html-button-response-stimulus p {
+  font-size: 16px !important;
+  font-family: "Open Sans", Arial, sans-serif !important;
+}
 
 
 /* ===== NEXT BUTTON ===== */
